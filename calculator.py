@@ -2,10 +2,13 @@
 def add(a, b):
     return a + b
 
+# Member 2: Subtraction
+def subtract(a, b):
+    return a - b
+
 #Member 3 : Multiplication
 def multiply(a,b):
     return a * b 
-
 
 
 def main():
@@ -26,6 +29,8 @@ def main():
         b = float(input("Enter second number: "))
         if choice == "1":
             print("Result:", add(a, b))
+        if choice == "2":
+            print("Result:", subtract(a, b))
         if choice == "3":
             print("Result:", multiply(a,b))
 
